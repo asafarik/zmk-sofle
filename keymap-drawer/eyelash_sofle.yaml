@@ -54,17 +54,17 @@ layers:
   - {t: /, s: '?'}
   - {t: \, s: '|'}
   - $$mdi:volume-off$$
-  - {t: '`', s: '~'}
+  - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', h: LAYER1}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - LAYER1
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: ']', h: '[', s: '}'}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: '`', s: '~'}
   LAYER1:
   - F1
   - F2
@@ -93,8 +93,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB ON
-  - $$mdi:bluetooth-off$$
-  - BT CLR ALL
+  - OUT BLE
+  - OUT USB
   - {t: '$$mdi:transfer$$', type: trans}
   - '&soft_off'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -106,8 +106,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
-  - OUT BLE
-  - OUT USB
+  - $$mdi:bluetooth-off$$
+  - BT CLR ALL
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
   - {t: '$$mdi:backup-restore$$', type: bootloader}
