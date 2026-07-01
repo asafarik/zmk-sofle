@@ -54,17 +54,17 @@ layers:
   - {t: /, s: '?'}
   - {t: \, s: '|'}
   - $$mdi:volume-off$$
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '`', s: '~'}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - LAYER1
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', h: LAYER1}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: '`', s: '~'}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '[', h: ']', s: '{'}
+  - $$mdi:backspace-reverse-outline$$
   LAYER1:
   - F1
   - F2
