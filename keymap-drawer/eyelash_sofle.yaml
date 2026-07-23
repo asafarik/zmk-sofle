@@ -60,10 +60,10 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', h: LAYER1}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:keyboard-space$$', h: LAYER2}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', h: LAYER2}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '[', h: ']', s: '{'}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - $$mdi:backspace-reverse-outline$$
   LAYER1:
   - F1
