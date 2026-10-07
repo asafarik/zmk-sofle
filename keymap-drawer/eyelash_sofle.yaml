@@ -79,7 +79,7 @@ layers:
   - F10
   - F11
   - F12
-  - RGB EFF
+  - {t: '$$mdi:transfer$$', type: trans}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -92,12 +92,12 @@ layers:
   - END
   - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB ON
+  - {t: '$$mdi:transfer$$', type: trans}
   - OUT BLE
   - OUT USB
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB ON
   - '&soft_off'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:progress-download$$
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PG DN
   - $$mdi:arrow-left-bold$$
@@ -105,11 +105,11 @@ layers:
   - $$mdi:arrow-right-bold$$
   - Ins
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB OFF
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:progress-download$$
+  - RGB OFF
+  - RGB EFF
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
